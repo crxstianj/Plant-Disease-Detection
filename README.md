@@ -36,7 +36,8 @@ python Augmentation.py
 # 2. Dividir en train/test (70/30)
 python split.py
 ```
-> Dataset NO aumentado: https://data.mendeley.com/datasets/tywbtsjrjv/1  
+> Dataset NO aumentado: https://data.mendeley.com/datasets/tywbtsjrjv/1
+
 Las augmentaciones aplicadas son: flip horizontal, ajuste de gamma, ruido gaussiano, desplazamiento RGB, rotación (±30°) y escala. También se genera una versión con todas combinadas.
 
 ## Entrenamiento
